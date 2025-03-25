@@ -1,0 +1,500 @@
+
+body{
+    background-color: rgba(198, 179, 166, 0.265);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 98.4%;
+    background-color: #483930d9;
+    color: white;
+    padding: 0.5em 0em 0.5em 1.5em;  }
+  
+  #logo-header{
+    display:inline-block;
+  }
+  
+  #SingOut{
+display: inline-block;
+    padding-left: 54em;
+    color: rgb(249, 249, 249);
+    font-size: 18px;
+  }
+  
+
+    .vline{
+    border-left: 2px solid rgba(198, 179, 166);
+    height: 60px;
+    padding-right: 6.5em;
+  }
+  
+  
+
+.icons-size{
+    color: #333;
+    font-size: 14px;
+}
+.action{
+    position: absolute;
+    right: 30px;
+    top:20px
+}
+.action .profile{
+    border-radius: 50%;
+    cursor: pointer;
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+    width: 56px;
+    background: #ada9a9bf;
+}
+.action .profile img{
+    width: 100%;
+    top:0;
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    height: 100%;
+}
+.action .menu{
+    background-color:#FFF;
+    box-sizing:0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: absolute;
+    right: -10px;
+    width: 200px;
+    transition: 0.5s;
+    top: 120px;
+    visibility: hidden;
+    opacity: 0;
+}
+.action .menu.active{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+.action .menu::before{
+    background-color:#fff;
+    content: '';
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    transform:rotate(45deg);
+    top:-5px;
+    width: 20px;
+}
+.action .menu h3{
+    color: #555;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 20px 0px;
+    text-align: left;
+    width: 100%;
+}
+.action .menu h3 div{
+    color: #818181;
+    font-size: 14px;
+    font-weight: 400;
+}
+.action .menu ul li{
+    align-items: center;
+    border-top:1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding: 10px 0px;
+}
+.action .menu ul li img{
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition:0.5s
+}
+.action .menu ul li .title{
+    display: inline-block;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.action .menu ul li:hover img{
+    opacity: 1;
+}
+
+/*---------------------------------------*/
+
+#reg{
+
+    width: 100%;
+    height: 36em;
+    background-color:rgba(198, 179, 166, 0.265);
+
+    
+}
+#photo{
+    margin-left: 26em;
+    margin-top: 3.3em;
+    width: 44%;
+
+}
+
+
+
+/*-------------------------------------------------*/
+
+
+.table-box
+{
+    margin: 14px auto;
+   
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    background-color: white;
+    font-size: 14px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #801139;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-head .table-cell2{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 15px 20px;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: middle !important;
+    padding-left: 10px;
+}
+.table-head{
+border-radius: 10px 10px 0 0; /* Rounded corners at the top */
+}
+
+.DP{
+    width: 145px;
+    height: 9em;
+}
+
+
+
+#h21{
+    margin-left: 6.4em;
+    padding-top:5em ;
+    color: rgba(72, 57, 48, 0.94);
+
+}
+#h22{
+        margin-left: 19.4em;
+    font-size: 31px;
+    padding-top: 1em;
+    color: rgba(72, 57, 48, 0.94);
+    padding-bottom: 2em;
+}
+.action-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    width: 50px;
+    padding-left: 7em;
+    
+}
+
+
+.action-icons i {
+    font-size: 1.5em;
+    color: #555;
+    padding: 15px;
+    box-shadow: 0 9px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 0em 2px;
+    cursor: pointer;
+}
+
+.action-icons i:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exp .req {
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.exp .red {
+    background-color: rgb(181, 181, 181);
+}
+.exp .red:hover{
+    background-color: rgb(227, 227, 227);
+}
+.exp .green {
+    background-color: #801139;
+}
+
+.exp .green:hover{
+    background-color:  hwb(337 42% 18%);
+
+}
+.exp .green,
+.exp .red {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 24%);
+}
+.exp{
+    padding-right: 26px;
+    padding-left: 1em;
+    width: 7em;
+}
+
+.table1{
+    padding: 17px 0px;
+}
+.close{
+    padding: 9px 0px;
+}
+
+.close .table-cell2 {
+    padding: 13px 32px;
+}
+
+
+.table-cell2{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 17px;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+
+.last-cell2{
+    padding: 72px 53px;
+}
+
+.hello p{
+     font-size: 51px;
+    padding: 7.2em 8.4em;
+    color: rgba(72, 57, 48, 0.94);
+    position: absolute;
+    
+}
+
+.sign-out{
+    position: absolute;
+    right: 5.2em;
+    top: 2.1em;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.sign-out a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.close .first-cell {
+    padding-left: 14px;
+}
+
+.marge{
+    padding-right: 26px;
+}
+
+/*-----------------------------------*/
+
+
+
+.custom-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 10px 13px;
+    margin: 7em 44%;
+    right: -31.8em;
+    border: 2px solid #801139;
+    border-radius: 11px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.custom-button:hover {
+    background-color:#801139;
+}
+
+.custom-button i {
+    font-size: 20px; 
+    margin-right: 5px; 
+}
+
+.custom-button p {
+    margin: 0;
+    font-size: 16px; 
+}
+
+
+/*----------------------------------*/
+
+/*    footer     */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.footer {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  background-color: #483930d9;
+  padding-bottom: 1em;
+      margin-top: 12em;
+
+}
+
+.footerrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10em;
+    padding-top: 2em;
+}
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 30%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #640527;
+  height: 2px;
+  width: 50px;
+}
+
+.footer-col ul li {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+  margin: 0;
+  padding: 0;
+}
+.fa-brands {
+  padding: 2px;
+  padding-bottom: 1em;
+}
+#copyRight {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 300;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: -1px;
+}
+
+#logo-footer {
+  width: 61%;
+  padding-top: 3em;
+}
+
+
+/*----------------------*/
+
+.fa-user:before {
+    content: "\f007";
+    position: absolute;
+    margin: 0px 16px;
+    height: 6em;
+    font-size: 26px;
+}
+
+#designerFilter {
+    position: absolute;
+    margin: 8em 0;
+    padding-left: 68em;
+}
+
+button#filterButton {
+    padding: 0px 5px;
+    background-color: #640527;
+    color: white;
+    border-radius: 4px;
+}
+
+/*------------------------------------------------designer logo-----------------------------*/
+
+.designer-logo {
+    width: 55px; /* Set the width of the image */
+    height: 55px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any overflowing content */
+    margin-right: 10px; /* Add some margin to separate the image from the designer name */
+}
+
+
+#mod{
+    text-decoration: none;
+    color:#555;
+    
+}
+#mod:visited{
+    color:#555
+}
+
+.designer-logo2{
+    border-radius: 50%;
+    width: 16em;
+    overflow: hidden;
+    margin: 0px 40%;
+    margin-top: 107px;}

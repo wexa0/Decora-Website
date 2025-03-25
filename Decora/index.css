@@ -1,0 +1,190 @@
+
+/*index page */
+
+*{
+  margin: 0;
+padding: 0;  
+    
+}
+
+.body {
+    background: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 82%));
+    font-family:sans-serif;
+    
+    
+  }
+#logo-header{
+    width: 10%;
+    height: auto;
+    padding-top: 13px;
+
+}
+
+#b{
+    float:right; 
+ }
+ 
+#h{
+    font-weight:bolder;
+    
+    font-size:4em;
+    
+   
+    margin-top:1.5em;
+    
+} 
+.s1{
+    
+    line-height: 27px;
+    margin-left: 0.6em;
+    color:rgb(83, 56, 13);
+        padding-bottom: 1em;
+
+}
+.s2{
+    
+    line-height: 2.4em;
+    font-size: 0.9em;
+    font-weight:700;
+    color:rgb(83, 56, 13);
+}
+
+#h2{
+    font-size: 20px;
+        padding-top: 24px;
+
+    
+}
+
+#buttHome{
+    width : 200px;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-weight:bold ;
+    border: 2px solid #801139;
+    background:transparent;
+    color: hsl(0, 0%, 0%);
+    font-size:1.2em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #801139 ;
+    height: 100%;
+    width:0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom:0 ;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+#buttHome:hover span{
+    width: 100%;
+}
+
+#buttHome:hover{
+    border: none;
+    color:white;
+}
+
+.all{
+    text-align: center;
+    margin-top: 12em;
+    margin-left:0.6em;
+}
+
+#sUP{
+    color: #008cff;
+    text-decoration: underline;
+}
+#sUP:hover{
+    color: #55aff8;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*    footer     */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.footer {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  background-color: #483930d9;
+  padding-bottom: 1em;
+  margin-top: 25em;
+}
+
+.footerrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10em;
+    padding-top: 2em;
+}
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 30%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #640527;
+  height: 2px;
+  width: 50px;
+}
+
+.footer-col ul li {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+  margin: 0;
+  padding: 0;
+}
+.fa-brands {
+  padding: 2px;
+  padding-bottom: 1em;
+}
+#copyRight {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 300;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: -1px;
+}
+
+#logo-footer {
+  width: 61%;
+  padding-top: 3em;
+}
+
+

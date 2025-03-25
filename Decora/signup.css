@@ -1,0 +1,252 @@
+
+body{
+    background-color: rgba(198, 179, 166, 0.265);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#img2 {
+    float: right;
+    height: 100%;
+    width: 42%;
+    margin: 0em;
+}
+#logo-header{
+    width: 10%;
+    height: auto;
+    padding-top: 13px;
+
+}
+
+.ch {
+    width: 150px;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #801139;
+    background: transparent;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    left: 18em;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ch:hover {
+    background-color: #801139;
+}
+
+#title1 {
+    padding: 1em;
+}
+
+.reg {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 6em;
+   background-color: white;
+       margin-left: 5em;
+    margin-right: 45%;
+    border-radius: 15px;
+}
+
+.button-box {
+    margin-left: 14em;
+    margin-right: 15.8em;
+    position: relative;
+    border-radius: 30px;
+    background: hsl(0, 0%, 91%);
+}
+
+.toggle-btn {
+    padding: 8px 43px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#btn {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 165px;
+    height: 100%;
+    background: #801139;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+    color:rgb(83, 56, 13);
+}
+
+.name-fields,
+.email-password-fields ,
+.brand-info{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#interior-designer-fields{
+    display: flex;
+    justify-content: space-between;
+    width: 101%;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.underline-input {
+    border: none;
+    border-bottom: 2px solid rgb(83, 56, 13);
+    padding: 6px;
+    padding-left: 1px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+    font-size: 15px;
+}
+
+.underline-input:focus {
+    outline: 0; 
+    
+}
+
+
+.brand-info-title {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.brand-info-title {
+    text-align: center;
+}
+
+.title2 {
+   
+    padding: 0 72px;
+    margin-right: 33em;
+}
+
+#done{
+    height: 100%;
+    width: 84%;
+    outline: none;
+    margin: 2em;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    background-color: #801139;
+    color: white;
+}
+#done:hover{
+background-color: hwb(337 42% 18%);
+}
+
+.title3{
+margin-right: 480px;
+padding-top: 10px;
+}
+
+
+.checkbox-container {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-right: 40px;
+}
+.specialty-checkboxes{
+    padding-left: 7em;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #801139;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+#copt{
+    top:8px;
+    right: -9px;
+}
+
+#coptt{
+    top: 1px;
+    padding-right: 10px;   
+}
+
+#signin{
+    color: #008cff;
+    text-decoration: underline;
+}
+#signin:hover{
+    color: #55aff8;
+}
+
+#acc{
+    text-align: center;
+    margin-top: -0.7em;
+}
+
