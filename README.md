@@ -1,7 +1,6 @@
-
-![1000-logo](https://github.com/user-attachments/assets/79c801ad-205a-45d7-bd4c-ef10e03602b4)
-
----
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/79c801ad-205a-45d7-bd4c-ef10e03602b4" alt="Decora Logo" width="300" height="auto">
+</div>
 
 # Decora - Interior Design Consultation Platform
 
@@ -70,6 +69,6 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
 ---
 
 ### Video Demo:
-[Watch the video demo here]([https://link-to-your-video.com](https://youtu.be/BZMhs3Low1Y?si=yxQaNE3SvKQGEEl0))
+[Watch the video demo here](https://youtu.be/BZMhs3Low1Y?si=yxQaNE3SvKQGEEl0)
 
 
