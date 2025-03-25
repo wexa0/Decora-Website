@@ -69,6 +69,5 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
 ---
 
 ### Video Demo:
-[Watch the video demo here](https://youtu.be/BZMhs3Low1Y?si=yxQaNE3SvKQGEEl0)
-
+[![Watch the demo](https://img.youtube.com/vi/BZMhs3Low1Y/maxresdefault.jpg)](https://youtu.be/BZMhs3Low1Y?si=yxQaNE3SvKQGEEl0)
 
