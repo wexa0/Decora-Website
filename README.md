@@ -28,15 +28,6 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
 
 ---
 
-## 🏆 Key Features
-- **Portfolio Management** 🎨: Designers can add, edit, or delete design projects in their portfolios.
-- **Consultation Requests** 💬: Clients can request consultations with designers based on design categories.
-- **AJAX Functionality** ⚡: Perform actions such as deleting projects and declining consultations without page reloads.
-- **Filtering by Speciality** 🔍: Clients can filter designers based on their design specialties (e.g., Modern, Bohemian, etc.).
-- **Responsive Design** 📱: Optimized for use on both desktop and mobile devices.
-
----
-
 ## 💻 Technology Stack
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP, MySQL
@@ -52,7 +43,7 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
    - Clone the repository by running:
 
      ```bash
-     git clone https://github.com/yourusername/Decora-Interior-Design-Consultation.git
+     git clone https://github.com/yourusername/Decora-Website.git
      ```
 
 2. **🔧 Install Prerequisites**
