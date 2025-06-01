@@ -32,7 +32,7 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP, MySQL
 - **AJAX**: jQuery for responsive functionality
-- **Database**: MySQL for storing user, designer, and consultation data.
+- **Database**: phpMyAdmin for storing user, designer, and consultation data.
 
 ---
 
