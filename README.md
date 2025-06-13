@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/79c801ad-205a-45d7-bd4c-ef10e03602b4" alt="Decora Logo" width="300" height="auto">
-</div>
+
+
+![Uploading تصميم بدون عنوان (17).png…]()
 
 # Decora - Interior Design Consultation Platform
 
