@@ -31,7 +31,7 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
 
 ## 💻 Technology Stack
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP, MySQL
+- **Backend**: PHP
 - **AJAX**: jQuery for responsive functionality
 - **Database**: phpMyAdmin for storing user, designer, and consultation data.
 
@@ -48,11 +48,11 @@ Finding the right interior designer can be a time-consuming and overwhelming pro
      ```
 
 2. **🔧 Install Prerequisites**
-   - Ensure you have **PHP** and **MySQL** installed.
+   - Ensure you have **PHP** installed.
    - Set up your local web server (e.g., XAMPP or WAMP) to run PHP and MySQL.
 
 3. **📦 Set Up the Database**
-   - Import the database schema provided in the project to your MySQL server.
+   - Import the database schema provided in the project.
 
 4. **▶️ Run the Application**
    - Start your local web server and navigate to the project directory.
